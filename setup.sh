@@ -8,7 +8,7 @@ curl https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar >
 
 # installing WP. Important to set URL same for acceptance tests
 php "$WP_CLI" db create
-php "$WP_CLI" core install --url="http://127.0.0.1:4000" --title="UnTestEd" --admin_password="admin" --admin_email="davert.php@mailican.com"
+php "$WP_CLI" core install --url="http://127.0.0.1:4000" --title="UnTestEd" --admin_password="admin" --admin_email="davert.php@mailican.com" --admin_user="admin"
 
 # activating test plugin
 php "$WP_CLI" plugin install user-submitted-posts
