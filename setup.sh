@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # curl http://wp-cli.org/installer.sh > wp-installer.sh
-INSTALL_DIR='.wp-cli' bash wp-installer.sh
+# INSTALL_DIR='.wp-cli' bash wp-installer.sh
 # ln -s .wp-cli/bin/wp wp
 
 WP_CLI="wp-cli.phar"
